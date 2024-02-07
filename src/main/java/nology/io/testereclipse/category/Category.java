@@ -34,4 +34,8 @@ public class Category extends BaseEntity {
 
 	}
 
+	public List<Todo> getTodos() {
+		return todos;
+	}
+
 }
